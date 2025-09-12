@@ -16,3 +16,5 @@ DRC.rpt
 *-rescue.lib
 
 *.kicad_prl
+*.lck
+
