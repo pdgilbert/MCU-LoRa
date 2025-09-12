@@ -1,0 +1,18 @@
+## see https://docs.kicad.org/7.0/en/kicad/kicad.html re file names/uses
+
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
+
+*.kicad_pcb-before
+report.txt
+DRC.rpt
+
+*.erc
+*.net
+*-rescue.lib
+
+*.kicad_prl
