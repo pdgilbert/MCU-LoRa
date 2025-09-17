@@ -209,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??_* PinSocket*_2x04_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6008,7 +6008,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "HC-PM254-5.0H-2x8PS"
+		(property "MfgPart" "HC-PM254-5.0H-2x4PS-02A"
 			(at 190.5 125.73 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "ProjectLib:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 			(at 129.54 140.97 0)
 			(effects
 				(font
@@ -6852,6 +6852,7 @@
 		)
 		(pin "29"
 			(uuid "2951b5ed-9e38-4929-8a39-bf13e2ddc23b")
+			(alternate "RCC_MCO_1")
 		)
 		(pin "4"
 			(uuid "81691d73-74b7-4fde-acc0-16a235288a16")
