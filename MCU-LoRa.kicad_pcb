@@ -1428,7 +1428,7 @@
 			(net 19 "GND_ANT")
 			(pinfunction "Shield")
 			(pintype "power_out")
-			(uuid "9aca737d-9d9b-408b-9b69-c6637a3a0f23")
+			(uuid "2d4a8cea-3287-4252-8053-5fdf54c588a5")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
@@ -1438,7 +1438,7 @@
 			(net 19 "GND_ANT")
 			(pinfunction "Shield")
 			(pintype "power_out")
-			(uuid "9aca737d-9d9b-408b-9b69-c6637a3a0f23")
+			(uuid "39406a47-7863-4a44-906b-278135a84a47")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -8257,7 +8257,7 @@
 		(path "/f12d0b95-be3f-41e2-8b41-943aec5e1edf/10a22940-4dc3-49f0-a19b-7d970d86998c")
 		(sheetname "/f411/")
 		(sheetfile "f411.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9547,6 +9547,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
+			(pinfunction "Pin_a1")
+			(pintype "passive")
 			(uuid "58a70d9d-9431-4f31-a3a0-2c4a1e57bd56")
 		)
 		(pad "a2" smd rect
@@ -9554,6 +9556,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "+3V3")
+			(pinfunction "Pin_a2")
+			(pintype "passive")
 			(uuid "11b79b0d-56c4-4d9b-9dff-3a1132109f99")
 		)
 		(pad "a3" smd rect
@@ -9561,6 +9565,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "SCL1")
+			(pinfunction "Pin_a3")
+			(pintype "passive")
 			(uuid "a2efe740-5223-44eb-9d18-55dfd9659c7e")
 		)
 		(pad "a4" smd rect
@@ -9568,6 +9574,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "SDA1")
+			(pinfunction "Pin_a4")
+			(pintype "passive")
 			(uuid "9fb25370-2f1b-4783-bf06-2962d38c1d28")
 		)
 		(pad "b1" smd rect
@@ -9575,6 +9583,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
+			(pinfunction "Pin_b1")
+			(pintype "passive")
 			(uuid "2e595060-41a0-438f-8bbd-2725648660c9")
 		)
 		(pad "b2" smd rect
@@ -9582,6 +9592,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "/f411/SWCLK")
+			(pinfunction "Pin_b2")
+			(pintype "passive")
 			(uuid "93ad83ff-0bb8-4c32-929a-c035d3b5eec6")
 		)
 		(pad "b3" smd rect
@@ -9589,6 +9601,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "/f411/SWDIO")
+			(pinfunction "Pin_b3")
+			(pintype "passive")
 			(uuid "18cccc00-798a-4d0c-b523-fafe6bde4804")
 		)
 		(pad "b4" smd rect
@@ -9596,6 +9610,8 @@
 			(size 3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "+3V3")
+			(pinfunction "Pin_b4")
+			(pintype "passive")
 			(uuid "5980457c-fd99-4d2c-9dc5-351975979461")
 		)
 		(embedded_fonts no)
@@ -13810,7 +13826,7 @@
 				)
 			)
 		)
-		(property "Value" "TP1"
+		(property "Value" "BT1  b2"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)

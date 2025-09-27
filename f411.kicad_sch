@@ -2380,7 +2380,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 1.651 5.842 0)
@@ -4673,7 +4673,7 @@
 		(at 167.64 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "10a22940-4dc3-49f0-a19b-7d970d86998c")
