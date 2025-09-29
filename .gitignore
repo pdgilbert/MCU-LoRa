@@ -1,9 +1,9 @@
 ## see https://docs.kicad.org/7.0/en/kicad/kicad.html re file names/uses
 
 *-bak
+*.bak*
 *-backups
 *-cache*
-*-bak*
 _autosave*
 \#auto_saved_files\#
 
