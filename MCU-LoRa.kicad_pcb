@@ -13280,7 +13280,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "A9"
+	(gr_text "PA9"
 		(at 70.93 68.56 0)
 		(layer "B.SilkS")
 		(uuid "64686363-cb19-45cd-a278-3b59e83c1bf2")
@@ -13292,7 +13292,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "(SCL2)B10"
+	(gr_text "(SCL2)PB10"
 		(at 57.17 63.39 0)
 		(layer "B.SilkS")
 		(uuid "89cfe949-ae1a-4e01-bd5e-7ec61457a96e")
@@ -13304,7 +13304,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "B8(SCL1)"
+	(gr_text "PB8(SCL1)"
 		(at 70.95 58.49 0)
 		(layer "B.SilkS")
 		(uuid "b63840be-a6b4-47ab-a033-4d3109f24c89")
@@ -13316,7 +13316,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "B9(SDA1)"
+	(gr_text "PB9(SDA1)"
 		(at 70.97 55.79 0)
 		(layer "B.SilkS")
 		(uuid "bd82b74f-76bf-4ce4-b0b4-e72dc8bf4a82")
@@ -13328,7 +13328,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "B3(SDA2)"
+	(gr_text "PB3(SDA2)"
 		(at 70.82 66.06 0)
 		(layer "B.SilkS")
 		(uuid "be184d74-754c-46a3-8611-d7774ffecd3a")
@@ -13360,6 +13360,17 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "led PC13"
+		(at 64.96 70.87 0)
+		(layer "B.SilkS")
+		(uuid "ff6b1e35-6c0d-4ae5-96bc-83047bd72bb1")
+		(effects
+			(font
+				(size 1 1)
 			)
 			(justify left bottom mirror)
 		)
