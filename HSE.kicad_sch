@@ -1924,7 +1924,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfc1d95e-e5af-49a4-8697-915ef7d3f153")
 		(property "Reference" "NT2"
 			(at 128.524 124.968 0)

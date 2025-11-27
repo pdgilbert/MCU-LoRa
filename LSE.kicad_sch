@@ -1395,7 +1395,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ad28584-014e-4a55-a0d3-65d5293b21de")
 		(property "Reference" "NT1"
 			(at 103.886 117.094 0)

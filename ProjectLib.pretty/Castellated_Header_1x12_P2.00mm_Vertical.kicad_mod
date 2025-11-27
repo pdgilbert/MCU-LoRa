@@ -53,46 +53,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0.89 -1.11)
-		(end 2.54 -1.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a93c6560-4583-4505-99af-1b2a018d1ade")
-	)
-	(fp_line
-		(start 2.54 -1.11)
-		(end 2.55 15.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a5c01f49-6fd0-44fd-a85a-eeb5f032af0c")
-	)
-	(fp_line
-		(start 2.5508 23.1)
-		(end 2.5508 14.89)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "05d80447-5e2c-4844-89b5-a67f340b2eb8")
-	)
-	(fp_line
-		(start 2.5508 23.125)
-		(end 0.5 23.125)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6522696b-d58d-4915-9863-0bb17fbd6d5e")
-	)
-	(fp_line
 		(start -1.0004 23.275)
 		(end 2.6504 23.275)
 		(stroke
@@ -422,7 +382,8 @@
 		(uuid "0f05d524-e106-4c73-850c-1970f5e88e2c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x08_P2.00mm_Vertical.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x12_P2.00mm_Vertical.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
